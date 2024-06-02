@@ -1,12 +1,22 @@
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
+import { GraphQLWsLink } from "@apollo/client/link/subscriptions";
+import { createClient } from "graphql-ws";
 
-// Create ApolloClient instance
+const GRAPHQL_ENDPOINT = "ws://localhost:4000/graphql";
+
+const link = new GraphQLWsLink(
+  createClient({
+      url: GRAPHQL_ENDPOINT,
+  })
+);
+
+const cache = new InMemoryCache();
+
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
-  cache: new InMemoryCache()
+  link,
+  cache
 });
 
-// Export client for use in other modules
 export default client;
 
 // Mutation functions
