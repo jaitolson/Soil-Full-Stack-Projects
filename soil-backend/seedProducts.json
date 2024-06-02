@@ -1,0 +1,563 @@
+[
+    {
+      "id": 1,
+      "name": " Apples",
+      "price": 2.99,
+      "description": "Crisp and sweet, perfect for snacking.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/00/84/20/78/240_F_84207870_4OdwiCrR1y8PKgi8IlyE4O2ilzHGRFdM.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 2,
+      "name": " Bananas",
+      "price": 1.99,
+      "description": "Naturally sweet and rich in potassium.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/99/29/05/240_F_299290543_D7Hg1njhj3SZc2JiYp2hsT3HWk9WIFrL.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 3,
+      "name": " Strawberries",
+      "price": 3.49,
+      "description": "Juicy and bursting with flavor.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/06/21/50/86/240_F_621508650_Ts7ecI8ca7kJxAF6Qo4aU0Glkjxi9ar6.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 4,
+      "name": " Spinach",
+      "price": 2.79,
+      "description": "Nutrient-rich and versatile leafy green.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/06/31/51/51/240_F_631515120_xZVJHLQ7G6HfTgeK2eMwBlJXvBfK6QTO.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 5,
+      "name": " Carrots",
+      "price": 1.49,
+      "description": "Sweet and crunchy, great for snacking or cooking.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/06/86/67/240_F_206866740_8k84uz3nnixk6iPI5osM3qNdPDuAcNfa.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 6,
+      "name": " Tomatoes",
+      "price": 2.29,
+      "description": "Fresh and flavorful, perfect for salads or sandwiches.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/02/75/06/92/240_F_275069251_l41HEefXAGT5b8Ot2Z3X7TJN6iHd7ski.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 7,
+      "name": " Blueberries",
+      "price": 4.99,
+      "description": "Small but packed with antioxidants and sweetness.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/97/35/93/240_F_297359303_TcVumdikGci1F7uhYEPnhfOe8FUt4JnO.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 8,
+      "name": " Kale",
+      "price": 3.99,
+      "description": "Nutrient-dense and hearty green, great for salads or smoothies.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/02/66/32/98/240_F_266329807_SJbhc04ui4nQTEBpu8sILyfODnI3EokX.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 9,
+      "name": " Avocados",
+      "price": 1.99,
+      "description": "Creamy and rich, perfect for guacamole or toast toppings.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/58/35/33/240_F_58353311_lYeisr4hd08FQBqISQ475taJX7tDxNEY.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 10,
+      "name": " Oranges",
+      "price": 2.49,
+      "description": "Sweet and tangy, rich in vitamin C.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/02/90/97/98/240_F_290979802_sWUEzMwZYHJUFJUgpKlsWjcRqOv4ZDdH.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 11,
+      "name": " Broccoli",
+      "price": 2.69,
+      "description": "Nutrient-packed and versatile vegetable.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/68/93/47/240_F_268934788_cLot6Rgij3W0gUvCOrniDXJmMCV725RV.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 12,
+      "name": " Potatoes",
+      "price": 1.79,
+      "description": "Versatile and satisfying, great for roasting or mashing.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/00/41/30/10/240_F_41301053_AbLi3hlosbLajBo7lQdNyfGz9eusxY1x.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 13,
+      "name": " Grapes",
+      "price": 3.99,
+      "description": "Sweet and juicy, perfect for snacking or making wine.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/70/94/63/240_F_70946377_VJXdpJqld6XOsOTO6lt95ieZSxGO0faM.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 14,
+      "name": " Lettuce",
+      "price": 2.29,
+      "description": "Crisp and refreshing, ideal for salads or sandwiches.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/00/12/19/28/240_F_12192831_9y2060MgwuYeWZISBuG1kP61N7OaITlI.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 15,
+      "name": " Cucumbers",
+      "price": 1.99,
+      "description": "Cool and hydrating, great for salads or pickling.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/17/53/96/240_F_317539613_tEb0UdpRHEb1ChSzN4tgTpA0k3wLg3CP.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 16,
+      "name": " Bell Peppers",
+      "price": 2.49,
+      "description": "Colorful and sweet, perfect for stuffing or adding to stir-fries.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/01/06/00/51/240_F_106005152_xxkZWSrwdKAMtR2dG9VtFTMzlJKft2xg.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 17,
+      "name": " Celery",
+      "price": 1.69,
+      "description": "Crunchy and refreshing, great for snacking or adding to soups.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/01/01/75/58/240_F_101755896_5ognYEczN1nHllMdG4cIbXXdiHt9MmrI.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 18,
+      "name": " Onions",
+      "price": 1.49,
+      "description": "Versatile and aromatic, essential for many dishes.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/83/75/04/240_F_383750461_9TY8APIOo5QR0HoAQPQVnQexaDxhtBEs.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 19,
+      "name": " Garlic",
+      "price": 0.99,
+      "description": "Pungent and flavorful, a staple in many cuisines.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/05/53/47/00/240_F_553470042_SKEvC7hZJmXtdQ36cS5hSNYgb6CqiVeT.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 20,
+      "name": " Peaches",
+      "price": 3.29,
+      "description": "Juicy and sweet, perfect for desserts or snacking.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/11/04/74/240_F_311047488_1omtuSXTKjIC6P9l7w0XzvroxCCHpmdh.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 21,
+      "name": " Mangoes",
+      "price": 2.99,
+      "description": "Sweet and tropical, great for smoothies or salsas.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/05/78/31/240_F_205783113_G5QKNox00BATd4WXqrBUPzW14ilFdizk.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 22,
+      "name": " Pineapples",
+      "price": 3.99,
+      "description": "Tangy and refreshing, perfect for snacking or adding to desserts.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/73/48/81/240_F_273488191_apKUSK7zF150VEJ1Jwnut9NZKtsHGjOg.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 23,
+      "name": " Watermelon",
+      "price": 4.49,
+      "description": "Juicy and hydrating, a summertime favorite.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/00/71/25/08/240_F_71250881_e6TkkPcWrrHBnASyvO6xGTyRt8UplTPG.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 24,
+      "name": " Cantaloupe",
+      "price": 3.49,
+      "description": "Sweet and aromatic, perfect for breakfast or snacks.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/01/75/44/17/240_F_175441734_eyqFu181ZC9qTIPGIgowN5FUrHfAnrUI.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 25,
+      "name": " Raspberries",
+      "price": 4.99,
+      "description": "Small but bursting with flavor, great for desserts or toppings.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/05/06/21/83/240_F_506218396_P28HQVy4g4hDHd0Khe07JCGKqTrwNyeT.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 26,
+      "name": " Blackberries",
+      "price": 5.49,
+      "description": "Rich and flavorful, perfect for pies or smoothies.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/16/22/35/240_F_16223522_G82hmF9TbhHITUqS4wxeTUUHuGNsE1BL.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 27,
+      "name": " Cherries",
+      "price": 6.99,
+      "description": "Sweet and indulgent, perfect for snacking or desserts.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/00/73/28/94/240_F_73289402_qO1RHjyekV5GZ5JuSBCihvXdlsnEMvC2.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 28,
+      "name": " Brussels Sprouts",
+      "price": 2.99,
+      "description": "Nutrient-dense and flavorful, great roasted or sautéed.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/06/92/55/96/240_F_692559669_RJzpEg9cIbuur3LpjsS1MgBZPczNo8KG.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 29,
+      "name": " Cauliflower",
+      "price": 2.79,
+      "description": "Versatile and low-carb, great for rice or pizza crust substitutes.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/66/88/15/240_F_66881573_k3EP1hJCw9O6nQ7a4uFBd8lyOU98dZUD.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 30,
+      "name": " Zucchini",
+      "price": 1.99,
+      "description": "Mild and versatile, perfect for grilling or sautéing.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/01/80/79/63/240_F_180796390_D2wXRjCdKpIpkDE4wKn1okGVtg82FQuJ.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 31,
+      "name": " Apricots",
+      "price": 3.79,
+      "description": "Sweet and tangy, perfect for snacking or baking.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/01/60/60/14/240_F_160601411_GqwTxwxDS6BHveZ1H9eq5tuVSIgRLT4S.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 32,
+      "name": " Pears",
+      "price": 2.99,
+      "description": "Juicy and flavorful, great for desserts or salads.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/04/15/98/88/240_F_415988853_BbJ2sGjIIATFOKfUomZfovglDtBnrkjs.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 33,
+      "name": " Kiwi",
+      "price": 2.49,
+      "description": "Tropical and tart, packed with vitamin C.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/03/39/87/43/240_F_339874322_E6WL9Wr9YbARoxh1OcbFnZU3U9xz5H19.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 34,
+      "name": " Plums",
+      "price": 3.29,
+      "description": "Sweet and succulent, perfect for desserts or preserves.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/04/53/90/14/240_F_453901495_odl85p55tJoahzYKnIRGYM8XGmqO44et.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 35,
+      "name": " Cranberries",
+      "price": 4.99,
+      "description": "Tart and tangy, great for sauces or baking.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/01/40/38/84/240_F_140388428_lxP4C0pzbzWXU6KW9qZ45gQAfcnmVP86.jpg",
+      "foodCategory": "Fruits"
+    },
+    {
+      "id": 36,
+      "name": " Asparagus",
+      "price": 3.99,
+      "description": "Tender and flavorful, great for grilling or roasting.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/04/57/35/240_F_204573566_jtK07UC1znsHsv3hsnDL7RrZRTVHRui0.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 37,
+      "name": " Artichokes",
+      "price": 4.49,
+      "description": "Delicious and versatile, perfect for dips or salads.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/83/10/52/240_F_383105215_58f4TUrANgq8IqfOhvNpEj69eFR7S0sO.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 38,
+      "name": " Cabbage",
+      "price": 1.99,
+      "description": "Crisp and refreshing, ideal for slaws or stir-fries.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/68/57/67/240_F_268576711_8xSlSSl2rVniIgQG9M9iqqrWTTRbg7Of.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 39,
+      "name": " Eggplant",
+      "price": 2.49,
+      "description": "Versatile and hearty, perfect for grilling or roasting.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/02/69/37/12/240_F_269371221_d4WS8Wa3012diEJuRiUMWjntJXQRyigS.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 40,
+      "name": " Green Beans",
+      "price": 2.29,
+      "description": "Tender and flavorful, great as a side dish or in salads.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/66/41/97/240_F_66419766_uTFRZYrwUF4jYsV8zIfoLFncHeQVVT9G.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 41,
+      "name": " Leeks",
+      "price": 2.99,
+      "description": "Mild and sweet, great for soups or as a garnish.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/01/08/71/03/240_F_108710362_rDiKOpiLU7AL7ykAfykK80d5361H6eXo.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 42,
+      "name": " Mushrooms",
+      "price": 3.49,
+      "description": "Earthly and savory, perfect for sauces or sautéing.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/04/73/35/32/240_F_473353222_4icaqd43dKEOwQxLbB4XYxT67Y7HNPV7.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 43,
+      "name": " Peas",
+      "price": 2.99,
+      "description": "Sweet and tender, perfect for soups or side dishes.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/01/71/80/24/240_F_171802439_YmqJrXmvTCKQH72ylhz8sdCFjIJZRnhq.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 44,
+      "name": " Peppers",
+      "price": 2.79,
+      "description": "Colorful and sweet, great for stuffing or stir-fries.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/29/09/60/240_F_329096039_YMwgwmuACKg33VEvHigUVw6DAKkUatHz.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 45,
+      "name": " Pumpkins",
+      "price": 3.99,
+      "description": "Sweet and hearty, perfect for pies or soups.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/46/43/95/240_F_46439591_NVLh5aTD5hDrBsWWeBCeakKosF5OGWuU.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 46,
+      "name": " Radishes",
+      "price": 1.79,
+      "description": "Crunchy and peppery, great for salads or pickling.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/00/47/26/28/240_F_47262847_W6oDZa2iS11G8JuCP3einLYvhlv3oa4B.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 47,
+      "name": " Squash",
+      "price": 2.49,
+      "description": "Sweet and hearty, great for roasting or soups.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/00/67/95/49/240_F_67954917_f0d8RP3QGegANCY0Lra4Kj22QIT16Jxb.jpg",
+      "foodCategory": "Vegetables"
+    },
+    {
+      "id": 48,
+      "name": " Sweet Potatoes",
+      "price": 2.99,
+      "description": "Sweet and nutritious, perfect for fries or casseroles.",
+      "imageUrl": "https://t4.ftcdn.net/jpg/06/82/65/07/240_F_682650789_ZxWBEpsFfyYlHJ8s7YEf6taDArUhMkBQ.jpg",
+      "foodCategory": "Vegetables"
+    },
+  {
+    "id": 49,
+    "name": "Quinoa",
+    "price": 4.99,
+    "description": "A nutritious whole grain, high in protein and fiber.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/02/45/67/65/240_F_245676531_XZoZIfonAXQ7mONc8pNQXaEEv4AcSGFp.jpg",
+    "foodCategory": "Grains & Cereals"
+  },
+  {
+    "id": 50,
+    "name": "Chia Seeds",
+    "price": 3.49,
+    "description": "Packed with omega-3 fatty acids, fiber, and antioxidants.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/02/85/48/47/240_F_285484748_IYznS4dNyYYClJ0S1faRUM4TYUfvH3mQ.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 51,
+    "name": "Almonds",
+    "price": 6.99,
+    "description": "A good source of healthy fats, protein, and vitamins.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/01/98/81/28/240_F_198812830_PqFQ7rQHccTK7LA7bISuHUfFxb6fgf7v.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 52,
+    "name": "Greek Yogurt",
+    "price": 2.79,
+    "description": "Rich in protein and probiotics, great for digestion.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/02/53/96/08/240_F_253960817_dpWv9VmIx10mPRRsEO3ElNM1xoOUQGet.jpg",
+    "foodCategory": "Dairy"
+  },
+  {
+    "id": 53,
+    "name": "Oats",
+    "price": 1.99,
+    "description": "High in fiber and antioxidants, helps lower cholesterol.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/04/86/64/94/240_F_486649477_NlYclcMsrQADkENpDSuTArsviTFw6XAc.jpg",
+    "foodCategory": "Grains & Cereals"
+  },
+  {
+    "id": 55,
+    "name": "Flaxseeds",
+    "price": 4.49,
+    "description": "High in omega-3 fatty acids and fiber, great for heart health.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/02/51/90/33/240_F_251903391_dEPKuDRvDF4kwEkzTH6dUfj20SxsXg50.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 56,
+    "name": "Spirulina",
+    "price": 7.99,
+    "description": "A nutrient-rich algae, high in protein and antioxidants.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/05/23/56/12/240_F_523561251_svwT3REwW51vyHdGOYOFMVPaFUmL4riw.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 57,
+    "name": "Tofu",
+    "price": 3.29,
+    "description": "A versatile plant-based protein, low in calories and cholesterol.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/47/60/25/240_F_47602536_Ym3P8tvJB7qZO4RXXhcawcJ0ReeHDOwc.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 58,
+    "name": "Brown Rice",
+    "price": 2.49,
+    "description": "A whole grain rich in fiber and essential nutrients.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/01/36/74/22/240_F_136742272_kb5Di0nIJClcM3e72A2DUwQWdmT5xy7Y.jpg",
+    "foodCategory": "Grains & Cereals"
+  },
+  {
+    "id": 59,
+    "name": "Hemp Seeds",
+    "price": 5.99,
+    "description": "Rich in omega-3 fatty acids and protein, great for heart health.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/01/63/27/55/240_F_163275530_PCfpw9f6ph9Ov2Dz9Icwndc1I0pvHuHW.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 60,
+    "name": "Soy Milk",
+    "price": 3.79,
+    "description": "A dairy-free alternative rich in protein and calcium.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/03/38/09/97/240_F_338099728_hFZvnTDedM5hHqlWNdCABhn1jpZE5yfd.jpg",
+    "foodCategory": "Dairy"
+  },
+  {
+    "id": 61,
+    "name": "Eggs",
+    "price": 5.99,
+    "description": "Nutrient-rich and high in protein, sourced from  farms.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/03/33/42/90/240_F_333429062_ld8vbidHZkEaOKZYjddFohsrsZut7U3j.jpg",
+    "foodCategory": "Dairy"
+  },
+  {
+    "id": 62,
+    "name": " Muesli",
+    "price": 6.49,
+    "description": "Rolled oats, nuts, seeds, and dried fruits blended for a nutritious breakfast.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/01/03/27/09/240_F_103270933_26JTCwthOscUfmABfnf48rvzuwx7ifJa.jpg",
+    "foodCategory": "Grains & Cereals"
+  },
+  {
+    "id": 63,
+    "name": " Honey",
+    "price": 8.99,
+    "description": "Raw and unprocessed honey from  beekeeping practices.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/02/19/55/78/240_F_219557879_nQ78Jca2C2rlyAq1ttygRzV5km0RSnz5.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 64,
+    "name": " Maple Syrup",
+    "price": 9.99,
+    "description": "Pure maple syrup sourced from  maple trees.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/04/55/68/15/240_F_455681587_PXudwQvDNUhvH0ePNMUASoVsMhQTCyI6.jpg",
+    "foodCategory": "Other"
+  },
+  {
+    "id": 65,
+    "name": " Olive Oil",
+    "price": 7.49,
+    "description": "Extra virgin olive oil cold-pressed from  olives.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/02/71/94/15/240_F_271941567_eR7RXf4qrVQ7XpoCSsra60ThjAFnbJ76.jpg",
+    "foodCategory": "Oils & Vinegars"
+  },
+  {
+    "id": 66,
+    "name": " Coconut Oil",
+    "price": 6.99,
+    "description": "Cold-pressed coconut oil extracted from  coconuts.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/01/56/25/40/240_F_156254094_50S28MkVI36C3pxOJqxbZVX9eyDe8ZS3.jpg",
+    "foodCategory": "Oils & Vinegars"
+  },
+  {
+    "id": 67,
+    "name": " Avocado Oil",
+    "price": 8.49,
+    "description": "Cold-pressed avocado oil from ally grown avocados.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/01/41/74/78/240_F_141747897_tBD5i59B0vB5BljcgjzfZoUjNAKnbopK.jpg",
+    "foodCategory": "Oils & Vinegars"
+  },
+  {
+    "id": 68,
+    "name": " Apple Cider",
+    "price": 4.99,
+    "description": "Apple cider vinegar made from natural ingredients.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/03/05/38/73/240_F_305387365_yQksaRSPGPIprF6Mm7Zrjvnh1i6KEuv2.jpg",
+    "foodCategory": "Oils & Vinegars"
+  },
+  
+  {
+    "id": 69,
+    "name": " Green Tea",
+    "price": 3.99,
+    "description": "Green tea made from organic tea leaves.",
+    "imageUrl": "https://t3.ftcdn.net/jpg/00/54/46/64/240_F_54466478_IB1xs2G2zV3wZzNX2iAwAUPC4balBJhJ.jpg",
+    "foodCategory": "Beverages"
+  },
+  {
+    "id": 71,
+    "name": " Coffee Beans",
+    "price": 10.99,
+    "description": "Fair trade  coffee beans, sustainably sourced and freshly roasted.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/02/81/38/03/240_F_281380383_esKg9Wwtbfu7MsyHMdFAlfIlvp9holBJ.jpg",
+    "foodCategory": "Beverages"
+  },
+  {
+    "id": 75,
+    "name": " Granola",
+    "price": 5.99,
+    "description": "Whole grain oats, nuts, and dried fruits sweetened with  honey or maple syrup.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/03/03/59/53/240_F_303595346_VaMaEhRbcKVbjCjn3yJZgCTm80bH8bMT.jpg",
+    "foodCategory": "Grains & Cereals"
+  }
+  ]

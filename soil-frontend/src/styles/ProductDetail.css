@@ -1,0 +1,146 @@
+/* ProductDetail.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto
+
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #888;
+}
+
+.product-description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.quantity-selector {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-selector label {
+  margin-right: 10px;
+}
+
+.quantity-selector input {
+  width: 60px;
+  padding: 5px;
+}
+button {
+  padding: 10px 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:10px
+}
+
+.add-to-cart {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:15px
+}
+.review {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  align-items: flex-end;
+  font-size: 10px;
+  
+}
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.review-header h2 {
+  margin: 0;
+  font-size: 20px
+}
+
+
+.add-to-cart:hover {
+  background: #218838;
+}
+.checked {
+  color: orange;
+}
+
+
+button:hover {
+  background: #0056b3;
+}
+.review-list {
+  list-style-type: none;
+  padding: 0;
+  max-height: 100px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.review-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.review-list li:last-child {
+  border-bottom: none;
+}
+
+.review-list li p {
+  margin: 5px 0;
+}
+.review-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.review-info {
+  flex: 1;
+}
+
+.review-name {
+  font-weight: bold;
+}

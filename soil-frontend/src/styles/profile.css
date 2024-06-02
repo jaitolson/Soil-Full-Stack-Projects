@@ -1,0 +1,99 @@
+.profile-container {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.12);
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 600px
+  }
+  
+  .profile-content {
+    text-align: center
+  }
+  .profile-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333
+  }
+  .profile-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: baseline
+  }
+  .profile-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    flex: 0 0 120px
+  }
+  .profile-text {
+    text-align: center;
+    font-size: 18px;
+    color: #555
+  }
+  .profile-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    flex: 1;
+    margin-left: 10px
+  }
+  .profile-input:focus {
+    outline: 0;
+    border-color: #3f51b5
+  }
+  .profile-button {
+    background-color: #6c757d;
+    text-align: center;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+        margin: 10px  ; /* Add vertical spacing and horizontally center the button */
+
+    transition: background-color .3s ease
+    
+  }
+  .delete-button {
+    
+    background-color: #6c757d;
+    text-align: center;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    margin: 10px auto; /* Add vertical spacing and horizontally center the button */
+    display: block; /* Ensure the button behaves as a block-level element */
+    width: fit-content;/* Ensure the button takes full width of its container */
+}
+  .profile-button:hover {
+    background-color: #24292e
+  }
+  .profile-button.full-width {
+    width: 15%;
+    margin-left: 10px
+  }
+  .profile-input:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,.1)
+  }
+  .profile-button:hover {
+    background-color: #24292e
+  }
+  .profile-title:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 2px 3px rgba(0,0,0,.1)
+  }
+  .profile-input,
+  .profile-title {
+    transition: all .3s ease
+  }
