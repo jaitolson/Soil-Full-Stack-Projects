@@ -72,22 +72,28 @@ router.post('/signin', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   try {
-    userID = req.params;
+    const userId = req.params.id;
 
-    // Find the user by email
-    const user = await db.User.findbyPK(userID);
+    const user = await db.User.findByPk(userId);
     if (!user) {
       return res.status(400).json({ error: 'User not found' });
     }
 
-    await review.destroy();
-    
+    // Delete related rows in the CartItems table
+    await db.Order.destroy({ where: { userID: userId } });
+    await db.CartItem.destroy({ where: { userID: userId } });
+    await db.Review.destroy({ where: { userID: userId } });
+
+    // Delete the user
+    await user.destroy();
+
     res.status(204).send();
   } catch (error) {
-    console.error('Error deleting review:', error);
+    console.error('Error deleting user:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
 
 router.get('/select', async (req, res) => {
   try {
